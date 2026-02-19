@@ -10,7 +10,7 @@ pipeline {
         REMOTE_PATH    = '/home/ubuntu/node-app'
     }
     
-    
+   
     stages {
         stage('Clone Repository') {
             steps {
